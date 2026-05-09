@@ -1,6 +1,9 @@
 # install i3
 sudo apt install -y i3 dmenu i3status i3lock
 
+# i3status
+stow -t ~/.config/i3status/ i3status_files/
+
 # rofi
 sudo apt install -y rofi
 
