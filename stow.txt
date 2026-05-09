@@ -1,0 +1,18 @@
+# GNU Stow
+
+Generar enlaces simbólicos (-t: target):
+
+`stow -t $HOME/.local/share/fonts font_files/`
+
+... o incluso tener convertir a dotfiles en destino:
+
+`stow -t $HOME/ --dotfiles bash_files/`
+
+Restow (re-aplicar enlaces):
+
+`stow -R -t $HOME/.local/share/fonts font_files/`
+
+Delete (eliminar enlaces):
+
+`stow -D -t $HOME/.local/share/fonts font_files/`
+
