@@ -11,7 +11,7 @@ history = 50000
 multiplier = 1
 
 [font]
-size = 11.0
+size = 10.0
 
 [font.normal]
 family = "MesloLGMDZ Nerd Font Mono"
