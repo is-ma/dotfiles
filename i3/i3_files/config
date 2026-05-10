@@ -11,14 +11,8 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xset s 600 600  # 10 min
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock -c 282828 --nofork
 
-# English international keyboard
-#exec --no-startup-id setxkbmap -layout us -variant intl
-
-# network applet
-#exec --no-startup-id nm-applet
-
-# bluetooth applet
-#exec --no-startup-id blueman-applet
+# English international keyboard (also mod+o)
+exec --no-startup-id setxkbmap -layout us -variant intl
 
 # notifications
 exec --no-startup-id dunst
