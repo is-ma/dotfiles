@@ -2,7 +2,7 @@
 set $mod Mod4
 
 # default font (bar)
-font pango:DejaVu Sans Mono 16
+font pango:DejaVu Sans Mono 18
 
 # carga aplicaciones de ~/.config/autostart/
 exec --no-startup-id dex --autostart --environment i3
@@ -168,5 +168,6 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 bar {
+        position top
         status_command i3status -c ~/.config/i3status/config
 }
