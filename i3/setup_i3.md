@@ -12,6 +12,7 @@ startx /usr/bin/i3
 
 # rofi
 sudo apt install -y rofi
+stow -t ~/.config/rofi/ rofi_files/
 
 # notifications
 sudo apt install -y libnotify-bin dunst
@@ -25,9 +26,7 @@ sudo apt install -y network-manager
 sudo apt install -y bluez libspa-0.2-bluetooth
 # 2. El Sonido (Infraestructura de Audio)
 sudo apt install -y pipewire pipewire-pulse wireplumber
-# 3. La Interfaz (Opcional, asegura compatibilidad de DBus)
-sudo apt install -y blueman 
-# 4. Autorización y Activación
+# 3. Autorización y Activación
 sudo usermod -aG bluetooth $USER
 systemctl --user enable --now pipewire pipewire-pulse wireplumber
 
