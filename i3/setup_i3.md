@@ -20,6 +20,8 @@ sudo apt install -y libnotify-bin dunst
 # network manager - uses nmcli (90302dd, 2024/Sep/02)
 # https://github.com/meowrch/rofi-network-manager
 sudo apt install -y network-manager
+nmtui
+
 # bluetooth - uses bluetoothctl (0cca4d4, 2025/Apr/14)
 # https://github.com/nickclyde/rofi-bluetooth
 # 1. El Motor (Hardware y Protocolo)
@@ -29,6 +31,12 @@ sudo apt install -y pipewire pipewire-pulse wireplumber
 # 3. Autorización y Activación
 sudo usermod -aG bluetooth $USER
 systemctl --user enable --now pipewire pipewire-pulse wireplumber
+bluetoothctl  # Paired + Trusted + Connected
 
-stow -t ~/.local/bin/ bin_files/
+# xrandr
+sudo apt install -y x11-xserver-utils
+xrandr --output HDMI-1 --mode 2560x1600 --output eDP-1 --mode 1920x1080 --same-as HDMI-1
+
+xrandr --output eDP-1 --off
+xrandr --output HDMI-1 --mod 2560x1600 --primary --auto
 

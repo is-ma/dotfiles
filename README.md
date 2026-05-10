@@ -12,3 +12,8 @@
 ## Fun
 - gtypist
 
+## Monitor
+- btm
+
+## WiFi
+- wavemon: signal strength
