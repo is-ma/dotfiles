@@ -9,6 +9,6 @@
 - Alacritty
 - i3
 
-### Fun
+## Fun
 - gtypist
 
