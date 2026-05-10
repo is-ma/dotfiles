@@ -11,8 +11,10 @@ sudo apt install -y rofi
 sudo apt install -y libnotify-bin dunst  # notifications
 
 # network manager - uses nmcli (90302dd, 2024/Sep/02)
+# bluetooth - uses bluetoothctl (0cca4d4, 2025/Apr/14)
 # https://github.com/meowrch/rofi-network-manager
-stow -t ~/.local/bin/ i3_net_files/
+# https://github.com/nickclyde/rofi-bluetooth
+stow -t ~/.local/bin/ bin_files/
 
 # rofi / networks / audio / bluetooth
 sudo apt install -y rofi network-manager-applet pulsemixer
