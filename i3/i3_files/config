@@ -12,7 +12,7 @@ exec --no-startup-id xset s 600 600  # 10 min
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock -c 282828 --nofork
 
 # English international keyboard
-exec --no-startup-id setxkbmap -layout us -variant intl
+#exec --no-startup-id setxkbmap -layout us -variant intl
 
 # network applet
 #exec --no-startup-id nm-applet
@@ -37,10 +37,18 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # deepseek: manually lock i3 (Gruvbox color)
-bindsym $mod+Shift+x exec i3lock -c 282828
+bindsym $mod+z exec i3lock -c 282828
+
+# Las más intuitivas (DeepSeek)
+bindsym $mod+i exec --no-startup-id "xrandr --output eDP-1 --off --output HDMI-1 --mode 2560x1600 --primary --rate 60 --rotate inverted 2>/dev/null || true"
+bindsym $mod+n exec --no-startup-id "xrandr --output eDP-1 --off --output HDMI-1 --mode 2560x1600 --primary --rate 60 --rotate normal 2>/dev/null || true"
+bindsym $mod+p exec --no-startup-id "xrandr --output HDMI-1 --off --output eDP-1 --mode 1920x1080 --primary --rate 60 2>/dev/null || true"
 
 # alacritty
 bindsym $mod+Return exec alacritty
+
+# English international keyboard
+bindsym $mod+o exec --no-startup-id setxkbmap -layout us -variant intl
 
 # kill focused window
 bindsym $mod+Shift+q kill
