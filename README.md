@@ -14,6 +14,7 @@
 
 ## Monitor
 - btm
+- xev: pressed keys
 
 ## WiFi
 - wavemon: signal strength
