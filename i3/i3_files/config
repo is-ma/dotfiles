@@ -36,6 +36,11 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec rofi -show drun
 bindsym $mod+Shift+d exec rofi -show run
 
+# volume
+bindsym $mod+Shift+v exec pamixer --increase 1
+bindsym $mod+v exec pamixer --decrease 1
+bindsym $mod+Control+v exec pamixer --toggle-mute
+
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
