@@ -1,16 +1,16 @@
 # Debian 13
 
+## Core
+- sudo apt install -y git curl bat build-essential 
+
 ## SYS
 - battery_care.md: Battery charge in a healthy range.
 - keyboard_us_int.md: Layout US International. 
 - keyboard_k380_fn/: K380 without multimedia keys, only F1-12.
 - deep_sleep.md
 
-## Core
-- sudo apt install -y git curl bat build-essential 
-- fonts: Meslo.
-
 ## Main
+- fonts: Meslo.
 - Alacritty
 - i3
 
