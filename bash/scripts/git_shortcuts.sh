@@ -7,17 +7,17 @@ export VISUAL=vim  # use VIM instead of nano as a default editor
 
 
 ########## basic commands ##########
-alias gs='git status -s'                          # Show untracked files and differences between HEAD & WD, WD & INDEX.
-alias ga='git add'                                # Add files to staged area.
-alias gaa='git add -A'                            # Add files to staged area (all files).
-alias gc='git commit -m'                          # Commit staged files with a message.
-alias gca='git commit -am'                        # Commit all modified, tracked files. With a message.
-alias gaac='git add -A && git commit -m'          # Common combination.
-alias guu='git add -A && git commit -m "update"'  # Common combination.
-alias gcd='git commit --amend'                    # Add more files to last commit or edit the commited message.
-alias gt='git tag'                                # Usage: gt v1.0; gt -d v1.0 (delete tag); tag after commit: gt v1.2 fceb02.
-alias gap='git add --patch'                       # Edit the hunks; delete added lines for later commits. [+ -> delete]
-alias gh='less ~/.is-ma/gitz/shortcuts.sh'        # Help
+alias gs='git status -s'                    # Show untracked files and differences between HEAD & WD, WD & INDEX.
+alias ga='git add'                          # Add files to staged area.
+alias gaa='git add -A'                      # Add files to staged area (all files).
+alias gc='git commit -m'                    # Commit staged files with a message.
+alias gca='git commit -am'                  # Commit all modified, tracked files. With a message.
+alias gaac='git add -A && git commit -m'    # Common combination.
+alias guu='git add -A && git commit -m "update" && git push'  # Common combination.
+alias gcd='git commit --amend'              # Add more files to last commit or edit the commited message.
+alias gt='git tag'                          # Usage: gt v1.0; gt -d v1.0 (delete tag); tag after commit: gt v1.2 fceb02.
+alias gap='git add --patch'                 # Edit the hunks; delete added lines for later commits. [+ -> delete]
+alias gh='less ~/.is-ma/gitz/shortcuts.sh'  # Help
 
 
 ########## information ##########
