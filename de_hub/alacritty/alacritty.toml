@@ -1,0 +1,7 @@
+[general]
+import = [
+#"~/.config/alacritty/themes/gruvbox_dark_hard_contrast.toml",
+"~/.config/alacritty/themes/gruvbox_dark_soft_contrast.toml",
+#"~/.config/alacritty/themes/gruvbox_dark_material.toml",
+]
+

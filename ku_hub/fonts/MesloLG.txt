@@ -1,0 +1,4 @@
+# Meslo LG
+- Meslo LG DZ v1.2.1.zip (DZ: Dot Zero)
+- https://github.com/andreberg/Meslo-Font
+- For Tabby and Konsole
