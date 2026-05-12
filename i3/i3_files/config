@@ -36,7 +36,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec rofi -show drun
 bindsym $mod+Shift+d exec rofi -show run
 
-# volume
+# volume (later on i3blocks, pamixer --get-volume-human)
 bindsym $mod+Shift+v exec pamixer --increase 1
 bindsym $mod+v exec pamixer --decrease 1
 bindsym $mod+Control+v exec pamixer --toggle-mute
