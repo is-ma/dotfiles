@@ -7,7 +7,7 @@
 - deep_sleep.md
 
 ## Core
-- Git
+- sudo apt install -y git curl bat build-essential 
 - fonts: Meslo.
 
 ## Main
