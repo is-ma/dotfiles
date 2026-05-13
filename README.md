@@ -1,7 +1,7 @@
 # Debian 13
 
 ## Core
-- sudo apt install -y git curl bat build-essential 
+- sudo apt install -y git curl bat build-essential ripgrep
 
 ## SYS
 - battery_care.md: Battery charge in a healthy range.
