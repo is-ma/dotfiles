@@ -1,5 +1,4 @@
 # Linux configs
-bind 'set enable-bracketed-paste off'
 sudo apt-get install -y plocate > /dev/null 2>&1  # alias: loc
 
 # Bash only aliases
