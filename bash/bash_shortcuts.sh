@@ -39,25 +39,25 @@ alias n="nvim"
 # [o]
 
 # [p]
-pe() {  # plocate, select, edit
+pe() {  # plocate && edit
   local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
   if [[ -n "$file" ]]; then
     vim "$file"
   fi
 }
-peg() {  # plocate, select, edit (global)
+pe0() {  # plocate && edit (global)
   local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
   if [[ -n "$file" ]]; then
     sudo vim "$file"
   fi
 }
-pv() {  # plocate, select, view
+pr() {  # plocate && read
   local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
   if [[ -n "$file" ]]; then
     batcat "$file"
   fi
 }
-pvg() {  # plocate, select, view (global)
+pr0() {  # plocate && read (global)
   local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
   if [[ -n "$file" ]]; then
     sudo batcat "$file"
@@ -68,6 +68,9 @@ alias pu="sudo updatedb"  # updates plocate db manually (instead of 1/day)
 # [q]
 
 # [r]
+alias r='RIPGREP_CONFIG_PATH=/home/rich/is-ma/dotfiles/rg/rg.conf rg'
+alias r0='sudo RIPGREP_CONFIG_PATH=/home/rich/is-ma/dotfiles/rg/rg.conf rg'
+#alias rgg='RIPGREP_CONFIG_PATH=$RIPGREP_CONFIG_PATH rg'
 
 # [s]
 alias s="source ~/.bashrc"

@@ -2,6 +2,9 @@
 
 ## Core
 - sudo apt install -y bat build-essential curl fzf git plocate ripgrep whois
+- git: is-ma/dotfiles
+- fonts: Meslo
+- Alacritty
 
 ## SYS
 - battery_care.md: Battery charge in a healthy range.
@@ -10,8 +13,6 @@
 - deep_sleep.md
 
 ## Main
-- fonts: Meslo.
-- Alacritty
 - i3
 
 ## Fun
