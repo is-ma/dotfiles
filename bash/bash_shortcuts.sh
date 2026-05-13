@@ -15,7 +15,6 @@ alias c="clear"
 # [f]
 
 # [g]
-alias grep="grep --color=always"
 
 # [h]
 alias h="history | grep -E"
@@ -40,16 +39,28 @@ alias n="nvim"
 # [o]
 
 # [p]
-p() {  # instant find (plocate), select, open
+pe() {  # plocate, select, edit
   local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
   if [[ -n "$file" ]]; then
     vim "$file"
   fi
 }
-pa() {  # instant find (plocate), select, open (SUDO)
+peg() {  # plocate, select, edit (global)
   local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
   if [[ -n "$file" ]]; then
     sudo vim "$file"
+  fi
+}
+pv() {  # plocate, select, view
+  local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
+  if [[ -n "$file" ]]; then
+    batcat "$file"
+  fi
+}
+pvg() {  # plocate, select, view (global)
+  local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
+  if [[ -n "$file" ]]; then
+    sudo batcat "$file"
   fi
 }
 alias pu="sudo updatedb"  # updates plocate db manually (instead of 1/day)
