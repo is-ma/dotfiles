@@ -11,12 +11,22 @@ alias c="clear"
 # [d]
 
 # [e]
+ee() {  # plocate && edit
+  local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
+  if [[ -n "$file" ]]; then
+    vim "$file"
+  fi
+}
+ee0() {  # plocate && edit (global)
+  local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
+  if [[ -n "$file" ]]; then
+    sudo vim "$file"
+  fi
+}
 
 # [f]
 
 # [g]
-alias g='RIPGREP_CONFIG_PATH=/home/rich/is-ma/dotfiles/rg/rg.conf rg'
-alias g0='sudo RIPGREP_CONFIG_PATH=/home/rich/is-ma/dotfiles/rg/rg.conf rg'
 
 # [h]
 alias h="history | grep -E"
@@ -41,35 +51,12 @@ alias n="nvim"
 # [o]
 
 # [p]
-pe() {  # plocate && edit
-  local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
-  if [[ -n "$file" ]]; then
-    vim "$file"
-  fi
-}
-pe0() {  # plocate && edit (global)
-  local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
-  if [[ -n "$file" ]]; then
-    sudo vim "$file"
-  fi
-}
-pr() {  # plocate && read
-  local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
-  if [[ -n "$file" ]]; then
-    batcat "$file"
-  fi
-}
-pr0() {  # plocate && read (global)
-  local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
-  if [[ -n "$file" ]]; then
-    sudo batcat "$file"
-  fi
-}
-alias pu="sudo updatedb"  # updates plocate db manually (instead of 1/day)
 
 # [q]
 
 # [r]
+alias r='RIPGREP_CONFIG_PATH=/home/rich/is-ma/dotfiles/rg/rg.conf rg'
+alias r0='sudo RIPGREP_CONFIG_PATH=/home/rich/is-ma/dotfiles/rg/rg.conf rg'
 
 # [s]
 alias s="source ~/.bashrc"
@@ -79,12 +66,25 @@ sumcol(){ awk "{s+=\$$1} END {print s}"; }  # sum numbers in column n
 # [t]
 
 # [u]
+alias uu="sudo updatedb"  # updates plocate db manually (instead of 1/day)
 
 # [v]
 alias v="vim"
 alias vi="vim"
 
 # [w]
+ww() {  # plocate && read
+  local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
+  if [[ -n "$file" ]]; then
+    batcat "$file"
+  fi
+}
+ww0() {  # plocate && read (global)
+  local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
+  if [[ -n "$file" ]]; then
+    sudo batcat "$file"
+  fi
+}
 wo () { whois $1 | egrep "^   (Admin|Creation|Updated)"; }
 
 # [x]
