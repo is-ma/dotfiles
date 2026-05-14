@@ -15,6 +15,8 @@ alias c="clear"
 # [f]
 
 # [g]
+alias g='RIPGREP_CONFIG_PATH=/home/rich/is-ma/dotfiles/rg/rg.conf rg'
+alias g0='sudo RIPGREP_CONFIG_PATH=/home/rich/is-ma/dotfiles/rg/rg.conf rg'
 
 # [h]
 alias h="history | grep -E"
@@ -68,9 +70,6 @@ alias pu="sudo updatedb"  # updates plocate db manually (instead of 1/day)
 # [q]
 
 # [r]
-alias r='RIPGREP_CONFIG_PATH=/home/rich/is-ma/dotfiles/rg/rg.conf rg'
-alias r0='sudo RIPGREP_CONFIG_PATH=/home/rich/is-ma/dotfiles/rg/rg.conf rg'
-#alias rgg='RIPGREP_CONFIG_PATH=$RIPGREP_CONFIG_PATH rg'
 
 # [s]
 alias s="source ~/.bashrc"
