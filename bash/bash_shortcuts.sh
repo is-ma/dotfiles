@@ -98,8 +98,6 @@ wo () { whois $1 | egrep "^   (Admin|Creation|Updated)"; }
 
 
 
-10:44:27|rank-4x2|~/.is-ma/custom_bash|master ✓
-cat utilities.sh
 # Linux configs
 bind 'set enable-bracketed-paste off'                          # pega sin caracteres especiales
 set -o vi                                                      # edit command-line with VI
@@ -157,7 +155,6 @@ alias portsd='sudo lsof -i -P -n | grep LISTEN'  # Puertos con detalles de proce
 alias myip='curl -s ifconfig.me'  # IP pública
 alias conn='sudo netstat -an | grep ESTABLISHED | wc -l'  # Conexiones activas
 alias pingt='ping -D'  # Ping con timestamp
-wo () { whois $1 | egrep "^   (Admin|Creation|Updated)"; }
 
 # Utilidades generales
 mkdircd() { mkdir -p "$1" && cd "$1"; }  # Crear directorio y entrar
@@ -416,4 +413,15 @@ if [[ $(hostname) == "rank-4x2" ]]; then
 
 
 fi
-10:44:56|rank-4x2|~/.is-ma/custom_bash|master ✓
+
+
+
+# Project shortcuts
+alias bujo="cd ~/.is-ma/bullet_journal/"
+alias hub="cd ~/.is-ma/rk_hub/"
+alias i="cd $HOME/.is-ma && ls"
+alias ismapull='back=$(pwd); cd ~/.is-ma/ && for repo in */; do cd $repo; echo -n "----- ----- ----- ----- $repo"; git for-each-ref --format="%(push:track)" refs/heads; git pull; gs; cd ..; done; cd $back'
+alias rk="ssh deploy@rankeando.com"
+alias rank="cd ~/rank_app/code"
+
+
