@@ -1,3 +1,0 @@
-# Fija mis teclas "F" en el Logitech K380
-*/5 * * * * /usr/bin/bash /home/rich/.k380_config.sh > /dev/null 2>&1
-
