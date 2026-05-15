@@ -11,6 +11,7 @@ alias c="clear"
 # [d]
 
 # [e]
+alias e="vim"
 ee() {  # plocate && edit
   local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
   if [[ -n "$file" ]]; then
@@ -53,6 +54,7 @@ alias n="nvim"
 # [p]
 
 # [q]
+alias q="exit"
 
 # [r]
 alias r='RIPGREP_CONFIG_PATH=/home/rich/is-ma/dotfiles/rg/rg.conf rg'
@@ -69,7 +71,6 @@ sumcol(){ awk "{s+=\$$1} END {print s}"; }  # sum numbers in column n
 alias uu="sudo updatedb"  # updates plocate db manually (instead of 1/day)
 
 # [v]
-alias v="vim"
 alias vi="vim"
 
 # [w]
