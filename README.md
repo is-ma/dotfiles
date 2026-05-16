@@ -1,7 +1,7 @@
 # Debian 13
 
 ## Core
-- sudo apt install -y bat build-essential curl fzf git plocate ripgrep whois nvim
+- sudo apt install -y bat build-essential curl fzf git plocate ripgrep whois
 - git: is-ma/dotfiles
 - fonts: Meslo
 - Alacritty
@@ -15,6 +15,7 @@
 
 ## Main
 - i3
+- neovim
 
 ## Fun
 - gtypist: Typing tutor.
