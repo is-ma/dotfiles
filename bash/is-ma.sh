@@ -1,10 +1,12 @@
-### IS-MA: COLORFUL ###
+# colors and prompt
 source ~/is-ma/dotfiles/bash/colorful/git_prompt.sh
 source ~/is-ma/dotfiles/bash/colorful/bash_colors.sh
 source ~/is-ma/dotfiles/bash/colorful/ps1.sh
 
-### IS-MA: SHORTCUTS ###
+# configs
 source ~/is-ma/dotfiles/bash/bash_configs.sh
-source ~/is-ma/dotfiles/bash/bash_shortcuts.sh
+
+# shortcuts
+source ~/is-ma/dotfiles/bash/custom_bash.sh
 source ~/is-ma/dotfiles/bash/git_shortcuts.sh
 

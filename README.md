@@ -1,7 +1,7 @@
 # Debian 13
 
 ## Core
-- sudo apt install -y bat build-essential curl fzf git plocate ripgrep whois
+- sudo apt install -y bat build-essential curl fzf git plocate ripgrep whois nvim
 - git: is-ma/dotfiles
 - fonts: Meslo
 - Alacritty

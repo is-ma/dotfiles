@@ -1,10 +1,11 @@
-# bash stuff
-HISTCONTROL=ignoreboth       # don't put duplicate lines in history
-HISTFILESIZE=20000           # remember 10000 commands [HDD]
+# configs
 HISTSIZE=1000                # remember 5000 commands [RAM]
-PROMPT_COMMAND="history -a"  # persist commands to my ~/.bash_history
+HISTFILESIZE=20000           # remember 10000 commands [HDD]
+HISTCONTROL=ignoreboth:erasedups # Evita comandos duplicados en el historial
+HISTTIMEFORMAT="%d/%m/%y %T "    # Formato de fecha/hora para cada comando
+PROMPT_COMMAND="history -a; history -n; $PROMPT_COMMAND" # Sincroniza el historial
+export HISTIGNORE="ls:cd:pwd:exit:clear:history" # Ignora comandos comunes
 export EDITOR="vim"          # use it as default (ex. git)
 set -o vi                    # edit command-line with VI
-
-# tools
+bind 'set enable-bracketed-paste off'  # pega sin caracteres especiales
 
