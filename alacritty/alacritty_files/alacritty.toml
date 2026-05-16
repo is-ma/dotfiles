@@ -29,43 +29,6 @@ style = "Italic"
 family = "MesloLGMDZ Nerd Font Mono"
 style = "Bold Italic"
 
-
-# ===========================================
-# TEMA: Gruvbox Dark
-# Fuente: https://github.com/morhetz/gruvbox
-# ===========================================
-[colors]
-primary = { background = "#282828", foreground = "#ebdbb2" }
-#vi_mode_cursor = { text = "#cc241d", cursor = "#689d6a" }
-
-#[colors.selection]
-#text = "#ffffff"
-#background = "#444444"
-
-[colors.selection]
-text = "#ebdbb2"        # Mismo color (sin cambio)
-background = "#3c3836"  # Gruvbox gray
-
-[colors.normal]
-black   = "#282828"
-red     = "#cc241d"
-green   = "#98971a"
-yellow  = "#d79921"
-blue    = "#458588"
-magenta = "#b16286"
-cyan    = "#689d6a"
-white   = "#a89984"
-
-[colors.bright]
-black   = "#928374"
-red     = "#fb4934"
-green   = "#b8bb26"
-yellow  = "#fabd2f"
-blue    = "#83a598"
-magenta = "#d3869b"
-cyan    = "#8ec07c"
-white   = "#ebdbb2"
-
 [selection]
 save_to_clipboard = true
 
@@ -75,3 +38,37 @@ blink_interval = 650
 blink_timeout = 5
 unfocused_hollow = true
 
+# ====================================================================
+# TEMA: Gruvbox Material Dark Hard (Sincronizado con tu tema de Helix)
+# ====================================================================
+[colors.primary]
+background = "#1d2021" # Tomado de gruvbox_material_dark_hard.toml (bg0)
+foreground = "#d4be98" # Tomado de gruvbox_material_dark_medium.toml (fg0)
+
+[colors.selection]
+background = "#3c3836" # bg2 de Dark Hard, ideal para contraste de selección
+text = "#d4be98"       # fg0
+
+[colors.cursor]
+text = "#1d2021"   # bg0 (Invertido para legibilidad)
+cursor = "#a89984" # grey2 de tu tema (Equivalente al cursor de Helix)
+
+[colors.normal]
+black   = "#282828" # bg0 de Medium / bg1 de Hard
+red     = "#ea6962" # red
+green   = "#a9b665" # green
+yellow  = "#d8a657" # yellow
+blue    = "#7daea3" # blue
+magenta = "#d3869b" # purple
+cyan    = "#89b482" # aqua
+white   = "#ddc7a1" # fg1
+
+[colors.bright]
+black   = "#7c6f64" # grey0
+red     = "#ea6962" # Alacritty brilla por fuentes, mantenemos la paleta limpia
+green   = "#a9b665" 
+yellow  = "#d8a657" 
+blue    = "#7daea3" 
+magenta = "#d3869b" 
+cyan    = "#89b482" 
+white   = "#d4be98" # fg0
