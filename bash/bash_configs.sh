@@ -6,6 +6,5 @@ HISTTIMEFORMAT="%d/%m/%y %T "    # Formato de fecha/hora para cada comando
 PROMPT_COMMAND="history -a; history -n; $PROMPT_COMMAND" # Sincroniza el historial
 export HISTIGNORE="ls:cd:pwd:exit:clear:history" # Ignora comandos comunes
 export EDITOR="vim"          # use it as default (ex. git)
-set -o vi                    # edit command-line with VI
+set -o vi                    # edit command-line with vi
 bind 'set enable-bracketed-paste off'  # pega sin caracteres especiales
-

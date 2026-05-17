@@ -1,1 +1,0 @@
-ACTION=="add", KERNEL=="hidraw[0-9]*", RUN+="/usr/local/bin/fn_on.sh /dev/%k"
