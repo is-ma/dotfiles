@@ -38,6 +38,11 @@ blink_interval = 650
 blink_timeout = 5
 unfocused_hollow = true
 
+[[keyboard.bindings]]
+key = "Enter"
+mods = "Shift"
+chars = "\u000a"
+
 # ====================================================================
 # TEMA: Gruvbox Material Dark Hard (Sincronizado con tu tema de Helix)
 # ====================================================================
