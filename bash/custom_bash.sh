@@ -16,17 +16,17 @@ alias dudir='du -sh .'                # Tamaño del directorio actual
 alias duh='du -sh * | sort -h'  # Tamaño de directorios ordenado
 
 # [e]
-alias e="hx"
+alias e="vim"
 ee() {  # plocate && edit
   local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
   if [[ -n "$file" ]]; then
-    hx "$file"
+    vim "$file"
   fi
 }
 ee0() {  # plocate && edit (global)
   local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
   if [[ -n "$file" ]]; then
-    sudo hx "$file"
+    sudo vim "$file"
   fi
 }
 alias etcm='sudo find /etc -type f -mtime -7 2>/dev/null | head -20'  # Archivos modificados en /etc
@@ -61,7 +61,7 @@ alias ls="ls -F"
 # [m]
 alias md5='md5sum'                    # Calcular checksum MD5
 alias md="rm /var/mail/deploy"
-alias me="hx /var/mail/deploy"
+alias me="vim /var/mail/deploy"
 alias mem='free -h && echo "" && ps aux --sort=-%mem | head -n 10'
 mkcd() { mkdir -p "$1" && cd "$1"; }  # Crear directorio y entrar
 alias myip='curl -s ifconfig.me'  # IP pública
@@ -70,6 +70,8 @@ alias myps='ps -u $USER -o pid,pcpu,pmem,comm'  # Procesos del usuario actual
 # [n]
 
 # [o]
+alias o="opencode run --agent=DeepJunior"
+alias oo="opencode"
 
 # [p]
 alias pingt='ping -D'  # Ping con timestamp
@@ -88,7 +90,6 @@ replace () { find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -
 alias s="source ~/.bashrc"
 alias serve='python3 -m http.server 8000'  # Servidor web rápido en puerto 8000
 alias su="echo ''; su"
-alias sys='uname -a && echo "---" && lsb_release -a 2>/dev/null || cat /etc/os-release'  # Info del sistema
 
 # [t]
 alias topc='top -o %CPU'      # Ordenar por CPU
@@ -101,6 +102,7 @@ alias uu="sudo updatedb"  # updates plocate db manually (instead of 1/day)
 alias vi="hx"
 
 # [w]
+alias w="batcat"
 ww() {  # plocate && read
   local file=$(plocate "$1" | fzf --height=40% --layout=reverse)
   if [[ -n "$file" ]]; then
@@ -121,3 +123,4 @@ wo () { whois $1 | egrep "^   (Admin|Creation|Updated)"; }
 
 # [z]
 
+# [a]
