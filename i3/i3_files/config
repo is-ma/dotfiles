@@ -7,8 +7,8 @@ font pango:DejaVu Sans Mono 18
 # notifications
 exec --no-startup-id dunst
 
-# carga aplicaciones de ~/.config/autostart/
-exec --no-startup-id dex --autostart --environment i3
+# Espanso-X11.AppImage v2.2.1 en ~/.local/bin/
+exec --no-startup-id espanso daemon
 
 # drag & drop floating windows by left-clicking into the title bar
 tiling_drag modifier titlebar
