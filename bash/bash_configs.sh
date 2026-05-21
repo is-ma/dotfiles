@@ -8,3 +8,7 @@ export HISTIGNORE="ls:cd:pwd:exit:clear:history" # Ignora comandos comunes
 export EDITOR="hx"
 set -o vi                    # edit command-line with vi
 bind 'set enable-bracketed-paste off'  # pega sin caracteres especiales
+
+# oh-my-openagent (OpenCode)
+OMO_SEND_ANONYMOUS_TELEMETRY=0
+
