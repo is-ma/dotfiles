@@ -1,705 +1,705 @@
 matches:
 # Smileys & Emotion: face-smiling
-# 1
+# ---------- grinning face
   - trigger: ",super"
     replace: "😀"
-# 2
+# ---------- grinning face with big eyes
   - trigger: ",orale"
     replace: "😃"
-# 3
+# ---------- grinning face with smiling eyes
   - trigger: ",lol"
     replace: "😄"
-# 4
+# ---------- beaming face with smiling eyes
   - trigger: ",chido"
     replace: "😁"
-# 5
+# ---------- grinning squinting face
   - trigger: ",alv"
     replace: "😆"
-# 6
+# ---------- grinning face with sweat
   - trigger: ",hehe"
     replace: "😅"
-# 7
+# ---------- rolling on the floor laughing
   - trigger: ",rofl"
     replace: "🤣"
-# 8
+# ---------- face with tears of joy
   - trigger: ",haha"
     replace: "😂"
-# 9
+# ---------- slightly smiling face
   - trigger: ",smiling"
     replace: "🙂"
-# 10
+# ---------- upside-down face
   - trigger: ",upside-down"
     replace: "🙃"
-# 11
+# ---------- melting face
   - trigger: ",melt"
     replace: "🫠"
-# 12
+# ---------- winking face
   - trigger: ",wink"
     replace: "😉"
-# 13
+# ---------- smiling face with smiling eyes
   - trigger: ",glad"
     replace: "😊"
-# 14
+# ---------- smiling face with halo
   - trigger: ",halo"
     replace: "😇"
 # Smileys & Emotion: face-affection
-# 15
+# ---------- smiling face with hearts
   - trigger: ",loved"
     replace: "🥰"
-# 16
+# ---------- smiling face with heart-eyes
   - trigger: ",heart-eyes"
     replace: "😍"
-# 17
+# ---------- star-struck
   - trigger: ",starry-eyes"
     replace: "🤩"
-# 18
+# ---------- face blowing a kiss
   - trigger: ",kiss"
     replace: "😘"
-# 19
+# ---------- smiling face with tear
   - trigger: ",tear"
     replace: "🥲"
 # Smileys & Emotion: face-tongue
-# 20
+# ---------- face savoring food
   - trigger: ",yummy"
     replace: "😋"
-# 21
+# ---------- face with tongue
   - trigger: ",tongue"
     replace: "😛"
-# 22
+# ---------- winking face with tongue
   - trigger: ",joke"
     replace: "😜"
-# 23
+# ---------- zany face
   - trigger: ",crazy"
     replace: "🤪"
-# 24
+# ---------- squinting face with tongue
   - trigger: ",yolo"
     replace: "😝"
-# 25
+# ---------- money-mouth face
   - trigger: ",money-mouth"
     replace: "🤑"
 # Smileys & Emotion: face-hand
-# 26
+# ---------- smiling face with open hands
   - trigger: ",loving-hug"
     replace: "🤗"
-# 27
+# ---------- face with hand over mouth
   - trigger: ",oops"
     replace: "🤭"
-# 28
+# ---------- face with open eyes and hand over mouth
   - trigger: ",hand"
     replace: "🫢"
-# 29
+# ---------- face with peeking eye
   - trigger: ",hide"
     replace: "🫣"
-# 30
+# ---------- shushing face
   - trigger: ",shh"
     replace: "🤫"
-# 31
+# ---------- thinking face
   - trigger: ",think"
     replace: "🤔"
-# 32
+# ---------- saluting face
   - trigger: ",sir"
     replace: "🫡"
 # Smileys & Emotion: face-neutral-skeptical
-# 33
+# ---------- zipper-mouth face
   - trigger: ",zipper"
     replace: "🤐"
-# 34
+# ---------- face with raised eyebrow
   - trigger: ",hmm"
     replace: "🤨"
-# 35
+# ---------- neutral face
   - trigger: ",blank"
     replace: "😐"
-# 36
+# ---------- expressionless face
   - trigger: ",uh"
     replace: "😑"
-# 37
+# ---------- face without mouth
   - trigger: ",mute"
     replace: "😶"
-# 38
+# ---------- dotted line face
   - trigger: ",meh"
     replace: "🫥"
-# 39
+# ---------- face in clouds
   - trigger: ",fog"
     replace: "😶‍🌫️"
-# 40
+# ---------- smirking face
   - trigger: ",confident"
     replace: "😏"
-# 41
+# ---------- unamused face
   - trigger: ",ugh"
     replace: "😒"
-# 42
+# ---------- face with rolling eyes
   - trigger: ",rolling"
     replace: "🙄"
-# 43
+# ---------- grimacing face
   - trigger: ",teeth"
     replace: "😬"
-# 44
+# ---------- face exhaling
   - trigger: ",exhale"
     replace: "😮‍💨"
-# 45
+# ---------- lying face
   - trigger: ",liar"
     replace: "🤥"
-# 46
+# ---------- shaking face
   - trigger: ",shock"
     replace: "🫨"
 # Smileys & Emotion: face-sleepy
-# 47
+# ---------- relieved face
   - trigger: ",releived"
     replace: "😌"
-# 48
+# ---------- pensive face
   - trigger: ",losing"
     replace: "😔"
-# 49
+# ---------- drooling face
   - trigger: ",drooling"
     replace: "🤤"
-# 50
+# ---------- sleeping face
   - trigger: ",nap"
     replace: "😴"
-# 51
+# ---------- face with bags under eyes
   - trigger: ",tired"
     replace: "🫩"
 # Smileys & Emotion: face-unwell
-# 52
+# ---------- face with thermometer
   - trigger: ",sick"
     replace: "🤒"
-# 53
+# ---------- face with head-bandage
   - trigger: ",ouch"
     replace: "🤕"
-# 54
+# ---------- nauseated face
   - trigger: ",nasty"
     replace: "🤢"
-# 55
+# ---------- face vomiting
   - trigger: ",vomit"
     replace: "🤮"
-# 56
+# ---------- sneezing face
   - trigger: ",flue"
     replace: "🤧"
-# 57
+# ---------- hot face
   - trigger: ",hot"
     replace: "🥵"
-# 58
+# ---------- cold face
   - trigger: ",cold"
     replace: "🥶"
-# 59
+# ---------- woozy face
   - trigger: ",woozy"
     replace: "🥴"
-# 60
+# ---------- face with crossed-out eyes
   - trigger: ",knocked"
     replace: "😵"
-# 61
+# ---------- face with spiral eyes
   - trigger: ",omg"
     replace: "😵‍💫"
-# 62
+# ---------- exploding head
   - trigger: ",blown"
     replace: "🤯"
 # Smileys & Emotion: face-hat
-# 63
+# ---------- cowboy hat face
   - trigger: ",cowboy"
     replace: "🤠"
-# 64
+# ---------- partying face
   - trigger: ",bday"
     replace: "🥳"
-# 65
+# ---------- disguised face
   - trigger: ",disguise"
     replace: "🥸"
 # Smileys & Emotion: face-gasses
-# 66
+# ---------- smiling face with sunglasses
   - trigger: ",cool"
     replace: "😎"
-# 67
+# ---------- nerd face
   - trigger: ",nerd"
     replace: "🤓"
-# 68
+# ---------- face with monocle
   - trigger: ",classy"
     replace: "🧐"
 # Smileys & Emotion: face-concerned
-# 69
+# ---------- confused face
   - trigger: ",hm"
     replace: "😕"
-# 70
+# ---------- worried face
   - trigger: ",worried"
     replace: "😟"
-# 71
+# ---------- slightly frowning face
   - trigger: ",sad"
     replace: "🙁"
-# 72
+# ---------- frowning face
   - trigger: ",frown"
     replace: "☹️"
-# 73
+# ---------- face with open mouth
   - trigger: ",wow"
     replace: "😮"
-# 74
+# ---------- hushed face
   - trigger: ",hushed"
     replace: "😯"
-# 75
+# ---------- astonished face
   - trigger: ",astonished"
     replace: "😲"
-# 76
+# ---------- flushed face
   - trigger: ",what"
     replace: "😳"
-# 77
+# ---------- distorted face
   - trigger: ",bloated"
     replace: "🫪"
-# 78
+# ---------- pleading face
   - trigger: ",pleading"
     replace: "🥺"
-# 79
+# ---------- face holding back tears
   - trigger: ",aww"
     replace: "🥹"
-# 80
+# ---------- anguished face
   - trigger: ",anguished"
     replace: "😧"
-# 81
+# ---------- fearful face
   - trigger: ",fearful"
     replace: "😨"
-# 82
+# ---------- anxious face with sweat
   - trigger: ",anxious"
     replace: "😰"
-# 83
+# ---------- sad but relieved face
   - trigger: ",complicated"
     replace: "😥"
-# 84
+# ---------- loudly crying face
   - trigger: ",cry"
     replace: "😭"
-# 85
+# ---------- face screaming in fear
   - trigger: ",scream"
     replace: "😱"
-# 86
+# ---------- confounded face
   - trigger: ",annoyed"
     replace: "😖"
-# 87
+# ---------- disappointed face
   - trigger: ",disappointed"
     replace: "😞"
-# 88
+# ---------- downcast face with sweat
   - trigger: ",downcast"
     replace: "😓"
-# 89
+# ---------- weary face
   - trigger: ",weary"
     replace: "😩"
-# 90
+# ---------- tired face
   - trigger: ",cost"
     replace: "😫"
-# 91
+# ---------- yawning face
   - trigger: ",yawn"
     replace: "🥱"
 # Smileys & Emotion: face-negative
-# 92
+# ---------- face with steam from nose
   - trigger: ",anger"
     replace: "😤"
-# 93
+# ---------- enraged face
   - trigger: ",red"
     replace: "😡"
-# 94
+# ---------- angry face
   - trigger: ",upset"
     replace: "😠"
-# 95
+# ---------- face with symbols on mouth
   - trigger: ",censor"
     replace: "🤬"
-# 96
+# ---------- smiling face with horns
   - trigger: ",horns"
     replace: "😈"
-# 97
+# ---------- angry face with horns
   - trigger: ",evil"
     replace: "👿"
-# 98
+# ---------- skull
   - trigger: ",skull"
     replace: "💀"
-# 99
+# ---------- skull and crossbones
   - trigger: ",dead"
     replace: "☠️"
 # Smileys & Emotion: face-costume
-# 100
+# ---------- pile of poo
   - trigger: ",poo"
     replace: "💩"
-# 101
+# ---------- clown face
   - trigger: ",clown"
     replace: "🤡"
-# 102
+# ---------- goblin
   - trigger: ",goblin"
     replace: "👺"
-# 103
+# ---------- ghost
   - trigger: ",ghost"
     replace: "👻"
-# 104
+# ---------- alien
   - trigger: ",alien"
     replace: "👽"
-# 105
+# ---------- robot
   - trigger: ",robot"
     replace: "🤖"
 # Smileys & Emotion: monkey-face
-# 106
+# ---------- see-no-evil monkey
   - trigger: ",monkey-eyes"
     replace: "🙈"
-# 107
+# ---------- hear-no-evil monkey
   - trigger: ",monkey-ears"
     replace: "🙉"
-# 108
+# ---------- speak-no-evil monkey
   - trigger: ",monkey-mouth"
     replace: "🙊"
 # Smileys & Emotion: heart
-# 109
+# ---------- love letter
   - trigger: ",love-letter"
     replace: "💌"
-# 110
+# ---------- beating heart
   - trigger: ",heartpulse"
     replace: "💓"
-# 111
+# ---------- revolving hearts
   - trigger: ",hearts"
     replace: "💞"
-# 112
+# ---------- broken heart
   - trigger: ",heartbroken"
     replace: "💔"
-# 113
+# ---------- red heart
   - trigger: ",red-heart"
     replace: "❤️"
-# 114
+# ---------- white heart
   - trigger: ",white-heart"
     replace: "🤍"
 # Smileys & Emotion: emotion
-# 115
+# ---------- hundred points
   - trigger: ",hundred"
     replace: "💯"
-# 116
+# ---------- collision
   - trigger: ",boom"
     replace: "💥"
-# 117
+# ---------- dizzy
   - trigger: ",dizzy"
     replace: "💫"
-# 118
+# ---------- speech balloon
   - trigger: ",balloon"
     replace: "💬"
-# 119
+# ---------- thought balloon
   - trigger: ",thought"
     replace: "💭"
-# 120
+# ---------- ZZZ
   - trigger: ",zzz"
     replace: "💤"
 # People & Body: hand-fingers-open
-# 121
+# ---------- waving hand: medium-light skin tone
   - trigger: ",waving"
     replace: "👋🏼"
 # People & Body: hand-fingers-partial
-# 122
+# ---------- pinching hand: medium-light skin tone
   - trigger: ",bit"
     replace: "🤏🏼"
-# 123
+# ---------- victory hand: medium-light skin tone
   - trigger: ",victory"
     replace: "✌🏼"
-# 124
+# ---------- crossed fingers: medium-light skin tone
   - trigger: ",luck"
     replace: "🤞🏼"
-# 125
+# ---------- hand with index finger and thumb crossed: medium-light skin tone
   - trigger: ",money"
     replace: "🫰🏼"
 # People & Body: hand-single-finger
-# 126
+# ---------- index pointing at the viewer: medium-light skin tone
   - trigger: ",you"
     replace: "🫵🏼"
 # People & Body: hand-fingers-closed
-# 127
+# ---------- thumbs up: medium-light skin tone
   - trigger: ",like"
     replace: "👍🏼"
-# 128
+# ---------- thumbs down: medium-light skin tone
   - trigger: ",dislike"
     replace: "👎🏼"
-# 129
+# ---------- left-facing fist: medium-light skin tone
   - trigger: ",fist"
     replace: "🤛🏼"
 # People & Body: hands
-# 130
+# ---------- raising hands: medium-light skin tone
   - trigger: ",two-hands"
     replace: "🙌🏼"
-# 131
+# ---------- heart hands: medium-light skin tone
   - trigger: ",heart-hands"
     replace: "🫶🏼"
-# 132
+# ---------- handshake: medium-light skin tone
   - trigger: ",handshake"
     replace: "🤝🏼"
-# 133
+# ---------- folded hands: medium-light skin tone
   - trigger: ",please"
     replace: "🙏🏼"
 # People & Body: hand-prop
-# 134
+# ---------- writing hand: medium-light skin tone
   - trigger: ",write"
     replace: "✍🏼"
-# 135
+# ---------- nail polish: medium-light skin tone
   - trigger: ",nails"
     replace: "💅🏼"
-# 136
+# ---------- selfie: medium-light skin tone
   - trigger: ",selfie"
     replace: "🤳🏼"
 # People & Body: body-parts
-# 137
+# ---------- flexed biceps: medium-light skin tone
   - trigger: ",biceps"
     replace: "💪🏼"
-# 138
+# ---------- ear: medium-light skin tone
   - trigger: ",ear"
     replace: "👂🏼"
-# 139
+# ---------- brain
   - trigger: ",brain"
     replace: "🧠"
-# 140
+# ---------- eyes
   - trigger: ",eyes"
     replace: "👀"
 # People & Body: person-gesture
-# 141
+# ---------- man raising hand: medium-light skin tone
   - trigger: ",me"
     replace: "🙋🏼‍♂️"
 # People & Body: person-role
-# 142
+# ---------- man technologist: medium-light skin tone
   - trigger: ",coder"
     replace: "👨🏼‍💻"
-# 143
+# ---------- detective: medium-light skin tone
   - trigger: ",detective"
     replace: "🕵🏼"
-# 144
+# ---------- ninja: medium-light skin tone
   - trigger: ",ninja"
     replace: "🥷🏼"
-# 145
+# ---------- construction worker: medium-light skin tone
   - trigger: ",worker"
     replace: "👷🏼"
-# 146
+# ---------- princess: medium-light skin tone
   - trigger: ",princess"
     replace: "👸🏼"
 # People & Body: person-fantasy
-# 147
+# ---------- man mage: medium-light skin tone
   - trigger: ",wizard"
     replace: "🧙🏼‍♂️"
 # People & Body: person-activity
-# 148
+# ---------- man running facing right: medium-light skin tone
   - trigger: ",run"
     replace: "🏃🏼‍♂️‍➡️"
-# 149
+# ---------- man dancing: medium-light skin tone
   - trigger: ",dance"
     replace: "🕺🏼"
 # People & Body: person-resting
-# 150
+# ---------- man cartwheeling: medium-light skin tone
   - trigger: ",excited"
     replace: "🤸🏼‍♂️"
-# 151
+# ---------- man in lotus position: medium-light skin tone
   - trigger: ",lotus"
     replace: "🧘🏼‍♂️"
 # People & Body: person-symbol
-# 152
+# ---------- people hugging
   - trigger: ",hug"
     replace: "🫂"
 # Animals & Nature: plant-other
-# 153
+# ---------- mushroom
   - trigger: ",mushroom"
     replace: "🍄"
 # Food & Drink: food-vegetable
-# 154
+# ---------- eggplant
   - trigger: ",eggplant"
     replace: "🍆"
 # Food & Drink: food-prepared
-# 155
+# ---------- hamburger
   - trigger: ",hamburger"
     replace: "🍔"
-# 156
+# ---------- popcorn
   - trigger: ",popcorn"
     replace: "🍿"
 # Food & Drink: drink
-# 157
+# ---------- hot beverage
   - trigger: ",coffee"
     replace: "☕"
-# 158
+# ---------- wine glass
   - trigger: ",wine"
     replace: "🍷"
-# 159
+# ---------- beer mug
   - trigger: ",beer"
     replace: "🍺"
-# 160
+# ---------- clinking beer mugs
   - trigger: ",cheers"
     replace: "🍻"
-# 161
+# ---------- clinking glasses
   - trigger: ",clink"
     replace: "🥂"
 # Travel & Places: place-map
-# 162
+# ---------- globe showing Americas
   - trigger: ",world"
     replace: "🌎"
 # Travel & Places: place-geographic
-# 163
+# ---------- volcano
   - trigger: ",volcano"
     replace: "🌋"
 # Travel & Places: place-building
-# 164
+# ---------- house
   - trigger: ",home"
     replace: "🏠"
 # Travel & Places: transport-ground
-# 165
+# ---------- police car
   - trigger: ",cops"
     replace: "🚓"
-# 166
+# ---------- oncoming police car
   - trigger: ",police"
     replace: "🚔"
 # Travel & Places: transport-air
-# 167
+# ---------- rocket
   - trigger: ",rocket"
     replace: "🚀"
 # Travel & Places: time
-# 168
+# ---------- hourglass done
   - trigger: ",sand"
     replace: "⌛"
 # Travel & Places: sky & weather
-# 169
+# ---------- crescent moon
   - trigger: ",moon"
     replace: "🌙"
-# 170
+# ---------- sun
   - trigger: ",sun"
     replace: "☀️"
-# 171
+# ---------- star
   - trigger: ",star"
     replace: "⭐"
-# 172
+# ---------- cloud with lightning and rain
   - trigger: ",storm"
     replace: "⛈️"
-# 173
+# ---------- cloud with rain
   - trigger: ",rain"
     replace: "🌧️"
-# 174
+# ---------- cloud with lightning
   - trigger: ",lightning"
     replace: "🌩️"
-# 175
+# ---------- high voltage
   - trigger: ",voltage"
     replace: "⚡"
-# 176
+# ---------- fire
   - trigger: ",fire"
     replace: "🔥"
 # Activities: event
-# 177
+# ---------- sparkles
   - trigger: ",sparkles"
     replace: "✨"
-# 178
+# ---------- party popper
   - trigger: ",party"
     replace: "🎉"
-# 179
+# ---------- wrapped gift
   - trigger: ",gift"
     replace: "🎁"
 # Activities: award-medal
-# 180
+# ---------- trophy
   - trigger: ",trophy"
     replace: "🏆"
-# 181
+# ---------- 1st place medal
   - trigger: ",first"
     replace: "🥇"
-# 182
+# ---------- 2nd place medal
   - trigger: ",second"
     replace: "🥈"
-# 183
+# ---------- 3rd place medal
   - trigger: ",third"
     replace: "🥉"
 # Activities: sport
-# 184
+# ---------- boxing glove
   - trigger: ",glove"
     replace: "🥊"
 # Activities: game
-# 185
+# ---------- bullseye
   - trigger: ",target"
     replace: "🎯"
-# 186
+# ---------- crystal ball
   - trigger: ",ball"
     replace: "🔮"
-# 187
+# ---------- diamond suit
   - trigger: ",diamond"
     replace: "♦️"
 # Activities: arts & crafts
-# 188
+# ---------- performing arts
   - trigger: ",theater"
     replace: "🎭"
 # Objects: clothing
-# 189
+# ---------- crown
   - trigger: ",crown"
     replace: "👑"
 # Objects: loud
-# 190
+# ---------- loudspeaker
   - trigger: ",loud"
     replace: "📢"
 # Objects: music
-# 191
+# ---------- microphone
   - trigger: ",microphone"
     replace: "🎤"
 # Objects: musical-instruments
-# 192
+# ---------- violin
   - trigger: ",violin"
     replace: "🎻"
 # Objects: phone
-# 193
+# ---------- telephone receiver
   - trigger: ",phone"
     replace: "📞"
 # Objects: light & video
-# 194
+# ---------- light bulb
   - trigger: ",bulb"
     replace: "💡"
 # Objects: money
-# 195
+# ---------- money bag
   - trigger: ",money-bag"
     replace: "💰"
 # Objects: office
-# 196
+# ---------- pushpin
   - trigger: ",pin"
     replace: "📌"
-# 197
+# ---------- round pushpin
   - trigger: ",location"
     replace: "📍"
-# 198
+# ---------- wastebasket
   - trigger: ",trash"
     replace: "🗑️"
 # Objects: lock
-# 199
+# ---------- key
   - trigger: ",key"
     replace: "🔑"
 # Objects: tool
-# 200
+# ---------- bomb
   - trigger: ",bomb"
     replace: "💣"
-# 201
+# ---------- gear
   - trigger: ",gear"
     replace: "⚙️"
-# 202
+# ---------- magnet
   - trigger: ",magnet"
     replace: "🧲"
 # Objects: medical
-# 203
+# ---------- syringe
   - trigger: ",syringe"
     replace: "💉"
-# 204
+# ---------- pill
   - trigger: ",pill"
     replace: "💊"
 # Objects: household
-# 205
+# ---------- shower
   - trigger: ",shower"
     replace: "🚿"
 # Symbols: warning
-# 206
+# ---------- warning
   - trigger: ",warning"
     replace: "⚠️"
 # Symbols: zodiac
-# 207
+# ---------- Gemini
   - trigger: ",gemini"
     replace: "♊"
 # Symbols: punctuation
-# 208
+# ---------- white question mark
   - trigger: ",question"
     replace: "❔"
 # Symbols: other-symbols
-# 209
+# ---------- check mark button
   - trigger: ",checked"
     replace: "✅"
-# 210
+# ---------- cross mark
   - trigger: ",cross"
     replace: "❌"
 # Flags: flag
-# 211
+# ---------- triangular flag
   - trigger: ",red-flag"
     replace: "🚩"
-# 212
+# ---------- white flag
   - trigger: ",white-flag"
     replace: "🏳️"
-# 213
+# ---------- pirate flag
   - trigger: ",pirate-flag"
     replace: "🏴‍☠️"
 # Flags: country-flag
-# 214
+# ---------- flag: Mexico
   - trigger: ",mexico"
     replace: "🇲🇽"
