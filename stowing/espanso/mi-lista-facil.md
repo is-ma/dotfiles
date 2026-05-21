@@ -151,101 +151,101 @@
 - [thought] thought balloon
 - [zzz] ZZZ
 
-## people & body: hand-fingers-open
+## People & Body: hand-fingers-open
 - [waving] waving hand: medium-light skin tone
 
-## people & body: hand-fingers-partial
+## People & Body: hand-fingers-partial
 - [bit] pinching hand: medium-light skin tone
 - [victory] victory hand: medium-light skin tone
 - [luck] crossed fingers: medium-light skin tone
 - [money] hand with index finger and thumb crossed: medium-light skin tone
 
-## people & body: hand-single-finger
+## People & Body: hand-single-finger
 - [you] index pointing at the viewer: medium-light skin tone
 
-## people & body: hand-fingers-closed
+## People & Body: hand-fingers-closed
 - [like] thumbs up: medium-light skin tone
 - [dislike] thumbs down: medium-light skin tone
 - [fist] left-facing fist: medium-light skin tone
 
-## people & body: hands
+## People & Body: hands
 - [two-hands] raising hands: medium-light skin tone
 - [heart-hands] heart hands: medium-light skin tone
 - [handshake] handshake: medium-light skin tone
 - [please] folded hands: medium-light skin tone
 
-## people & body: hand-prop
+## People & Body: hand-prop
 - [write] writing hand: medium-light skin tone
 - [nails] nail polish: medium-light skin tone
 - [selfie] selfie: medium-light skin tone
 
-## people & body: body-parts
+## People & Body: body-parts
 - [biceps] flexed biceps: medium-light skin tone
 - [ear] ear: medium-light skin tone
 - [brain] brain
 - [eyes] eyes
 
-## people & body: person-gesture
+## People & Body: person-gesture
 - [me] man raising hand: medium-light skin tone
 
-## people & body: person-role
+## People & Body: person-role
 - [coder] man technologist: medium-light skin tone
 - [detective] detective: medium-light skin tone
 - [ninja] ninja: medium-light skin tone
 - [worker] construction worker: medium-light skin tone
 - [princess] princess: medium-light skin tone
 
-## people & body: person-fantasy
+## People & Body: person-fantasy
 - [wizard] man mage: medium-light skin tone
 
-## people & body: person-activity
+## People & Body: person-activity
 - [run] man running facing right: medium-light skin tone
 - [dance] man dancing: medium-light skin tone
 
-## people & body: person-resting
+## People & Body: person-resting
 - [excited] man cartwheeling: medium-light skin tone
 - [lotus] man in lotus position: medium-light skin tone
 
-## people & body: person-symbol
+## People & Body: person-symbol
 - [hug] people hugging
 
 ## Animals & Nature: plant-other
 - [mushroom] mushroom
 
-## food & drink: food-vegetable
+## Food & Drink: food-vegetable
 - [eggplant] eggplant
 
-## food & drink: food-prepared
+## Food & Drink: food-prepared
 - [hamburger] hamburger
 - [popcorn] popcorn
 
-## food & drink: drink
+## Food & Drink: drink
 - [coffee] hot beverage
 - [wine] wine glass
 - [beer] beer mug
 - [cheers] clinking beer mugs
 - [clink] clinking glasses
 
-## travel & places: place-map
+## Travel & Places: place-map
 - [world] globe showing Americas
 
-## travel & places: place-geographic
+## Travel & Places: place-geographic
 - [volcano] volcano
 
-## travel & places: place-building
+## Travel & Places: place-building
 - [home] house
 
-## travel & places: transport-ground
+## Travel & Places: transport-ground
 - [cops] police car
 - [police] oncoming police car
 
-## travel & places: transport-air
+## Travel & Places: transport-air
 - [rocket] rocket
 
-## travel & places: time
+## Travel & Places: time
 - [sand] hourglass done
 
-## travel & places: sky & weather
+## Travel & Places: sky & weather
 - [moon] crescent moon
 - [sun] sun
 - [star] star
@@ -255,86 +255,86 @@
 - [voltage] high voltage
 - [fire] fire
 
-## activities: event
+## Activities: event
 - [sparkles] sparkles
 - [party] party popper
 - [gift] wrapped gift
 
-## activities: award-medal
+## Activities: award-medal
 - [trophy] trophy
 - [first] 1st place medal
 - [second] 2nd place medal
 - [first] 3rd place medal
 
-## activities: sport
+## Activities: sport
 - [glove] boxing glove
 
-## activities: game
+## Activities: game
 - [target] bullseye
 - [ball] crystal ball
 - [diamond] diamond suit
 
-## activities: arts & crafts
+## Activities: arts & crafts
 - [theater] performing arts
 
-## objects: clothing
+## Objects: clothing
 - [crown] crown
 
-## objects: loud
+## Objects: loud
 - [loud] loudspeaker
 
-## objects: music
+## Objects: music
 - [microphone] microphone
 
-## objects: musical-instruments
+## Objects: musical-instruments
 - [violin] violin
 
-## objects: phone
+## Objects: phone
 - [phone] telephone receiver
 
-## objects: light & video
+## Objects: light & video
 - [bulb] light bulb
 
-## objects: money
+## Objects: money
 - [money-bag] money bag
 
-## objects: office
+## Objects: office
 - [pin] pushpin
 - [location] round pushpin
 - [trash] wastebasket
 
-## objects: lock
+## Objects: lock
 - [key] key
 
-## objects: tool
+## Objects: tool
 - [bomb] bomb
 - [gear] gear
 - [magnet] magnet
 
-## objects: medical
+## Objects: medical
 - [syringe] syringe
 - [pill] pill
 
-## objects: household
+## Objects: household
 - [shower] shower
 
-## symbols: warning
+## Symbols: warning
 - [warning] warning
 
-## symbols: zodiac
+## Symbols: zodiac
 - [gemini] Gemini
 
-## symbols: punctuation
+## Symbols: punctuation
 - [question] white question mark
 
-## symbols: other-symbols
+## Symbols: other-symbols
 - [checked] checked mark button
 - [cross] cross mark
 
-## flags: flag
+## Flags: flag
 - [red-flag] triangular flag
 - [white-flag] white flag
 - [pirate-flag] pirate flag
 
-## flags: country-flag
+## Flags: country-flag
 - [mexico] Mexico
