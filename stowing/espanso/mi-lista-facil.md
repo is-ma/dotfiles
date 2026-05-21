@@ -44,7 +44,7 @@
 ## Smileys & Emotion: face-neutral-skeptical
 - [zipper] zipper-mouth face
 - [hmm] face with raised eyebrow
-- [blank] neural face
+- [blank] neutral face
 - [uh] expressionless face
 - [mute] face without mouth
 - [meh] dotted line face
@@ -98,7 +98,7 @@
 - [what] flushed face
 - [bloated] distorted face
 - [pleading] pleading face
-- [aww] face with holding back tears
+- [aww] face holding back tears
 - [anguished] anguished face
 - [fearful] fearful face
 - [anxious] anxious face with sweat
@@ -264,7 +264,7 @@
 - [trophy] trophy
 - [first] 1st place medal
 - [second] 2nd place medal
-- [first] 3rd place medal
+- [third] 3rd place medal
 
 ## Activities: sport
 - [glove] boxing glove
@@ -328,7 +328,7 @@
 - [question] white question mark
 
 ## Symbols: other-symbols
-- [checked] checked mark button
+- [checked] check mark button
 - [cross] cross mark
 
 ## Flags: flag
@@ -337,4 +337,4 @@
 - [pirate-flag] pirate flag
 
 ## Flags: country-flag
-- [mexico] Mexico
+- [mexico] flag: Mexico
