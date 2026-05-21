@@ -42,6 +42,9 @@ matches:
 # ---------- smiling face with halo
   - trigger: ",halo"
     replace: "😇"
+
+
+
 # Smileys & Emotion: face-affection
 # ---------- smiling face with hearts
   - trigger: ",loved"
@@ -58,6 +61,9 @@ matches:
 # ---------- smiling face with tear
   - trigger: ",tear"
     replace: "🥲"
+
+
+
 # Smileys & Emotion: face-tongue
 # ---------- face savoring food
   - trigger: ",yummy"
@@ -77,6 +83,9 @@ matches:
 # ---------- money-mouth face
   - trigger: ",money-mouth"
     replace: "🤑"
+
+
+
 # Smileys & Emotion: face-hand
 # ---------- smiling face with open hands
   - trigger: ",loving-hug"
@@ -99,6 +108,9 @@ matches:
 # ---------- saluting face
   - trigger: ",sir"
     replace: "🫡"
+
+
+
 # Smileys & Emotion: face-neutral-skeptical
 # ---------- zipper-mouth face
   - trigger: ",zipper"
@@ -142,6 +154,9 @@ matches:
 # ---------- shaking face
   - trigger: ",shock"
     replace: "🫨"
+
+
+
 # Smileys & Emotion: face-sleepy
 # ---------- relieved face
   - trigger: ",releived"
@@ -158,6 +173,9 @@ matches:
 # ---------- face with bags under eyes
   - trigger: ",tired"
     replace: "🫩"
+
+
+
 # Smileys & Emotion: face-unwell
 # ---------- face with thermometer
   - trigger: ",sick"
@@ -192,6 +210,9 @@ matches:
 # ---------- exploding head
   - trigger: ",blown"
     replace: "🤯"
+
+
+
 # Smileys & Emotion: face-hat
 # ---------- cowboy hat face
   - trigger: ",cowboy"
@@ -202,6 +223,9 @@ matches:
 # ---------- disguised face
   - trigger: ",disguise"
     replace: "🥸"
+
+
+
 # Smileys & Emotion: face-gasses
 # ---------- smiling face with sunglasses
   - trigger: ",cool"
@@ -212,6 +236,9 @@ matches:
 # ---------- face with monocle
   - trigger: ",classy"
     replace: "🧐"
+
+
+
 # Smileys & Emotion: face-concerned
 # ---------- confused face
   - trigger: ",hm"
@@ -282,6 +309,9 @@ matches:
 # ---------- yawning face
   - trigger: ",yawn"
     replace: "🥱"
+
+
+
 # Smileys & Emotion: face-negative
 # ---------- face with steam from nose
   - trigger: ",anger"
@@ -307,6 +337,9 @@ matches:
 # ---------- skull and crossbones
   - trigger: ",dead"
     replace: "☠️"
+
+
+
 # Smileys & Emotion: face-costume
 # ---------- pile of poo
   - trigger: ",poo"
@@ -326,6 +359,9 @@ matches:
 # ---------- robot
   - trigger: ",robot"
     replace: "🤖"
+
+
+
 # Smileys & Emotion: monkey-face
 # ---------- see-no-evil monkey
   - trigger: ",monkey-eyes"
@@ -336,6 +372,9 @@ matches:
 # ---------- speak-no-evil monkey
   - trigger: ",monkey-mouth"
     replace: "🙊"
+
+
+
 # Smileys & Emotion: heart
 # ---------- love letter
   - trigger: ",love-letter"
@@ -355,6 +394,9 @@ matches:
 # ---------- white heart
   - trigger: ",white-heart"
     replace: "🤍"
+
+
+
 # Smileys & Emotion: emotion
 # ---------- hundred points
   - trigger: ",hundred"
@@ -374,10 +416,16 @@ matches:
 # ---------- ZZZ
   - trigger: ",zzz"
     replace: "💤"
+
+
+
 # People & Body: hand-fingers-open
 # ---------- waving hand: medium-light skin tone
   - trigger: ",waving"
     replace: "👋🏼"
+
+
+
 # People & Body: hand-fingers-partial
 # ---------- pinching hand: medium-light skin tone
   - trigger: ",bit"
@@ -391,10 +439,16 @@ matches:
 # ---------- hand with index finger and thumb crossed: medium-light skin tone
   - trigger: ",money"
     replace: "🫰🏼"
+
+
+
 # People & Body: hand-single-finger
 # ---------- index pointing at the viewer: medium-light skin tone
   - trigger: ",you"
     replace: "🫵🏼"
+
+
+
 # People & Body: hand-fingers-closed
 # ---------- thumbs up: medium-light skin tone
   - trigger: ",like"
@@ -405,6 +459,9 @@ matches:
 # ---------- left-facing fist: medium-light skin tone
   - trigger: ",fist"
     replace: "🤛🏼"
+
+
+
 # People & Body: hands
 # ---------- raising hands: medium-light skin tone
   - trigger: ",two-hands"
@@ -418,6 +475,9 @@ matches:
 # ---------- folded hands: medium-light skin tone
   - trigger: ",please"
     replace: "🙏🏼"
+
+
+
 # People & Body: hand-prop
 # ---------- writing hand: medium-light skin tone
   - trigger: ",write"
@@ -428,6 +488,9 @@ matches:
 # ---------- selfie: medium-light skin tone
   - trigger: ",selfie"
     replace: "🤳🏼"
+
+
+
 # People & Body: body-parts
 # ---------- flexed biceps: medium-light skin tone
   - trigger: ",biceps"
@@ -441,10 +504,16 @@ matches:
 # ---------- eyes
   - trigger: ",eyes"
     replace: "👀"
+
+
+
 # People & Body: person-gesture
 # ---------- man raising hand: medium-light skin tone
   - trigger: ",me"
     replace: "🙋🏼‍♂️"
+
+
+
 # People & Body: person-role
 # ---------- man technologist: medium-light skin tone
   - trigger: ",coder"
@@ -461,10 +530,16 @@ matches:
 # ---------- princess: medium-light skin tone
   - trigger: ",princess"
     replace: "👸🏼"
+
+
+
 # People & Body: person-fantasy
 # ---------- man mage: medium-light skin tone
   - trigger: ",wizard"
     replace: "🧙🏼‍♂️"
+
+
+
 # People & Body: person-activity
 # ---------- man running facing right: medium-light skin tone
   - trigger: ",run"
@@ -472,6 +547,9 @@ matches:
 # ---------- man dancing: medium-light skin tone
   - trigger: ",dance"
     replace: "🕺🏼"
+
+
+
 # People & Body: person-resting
 # ---------- man cartwheeling: medium-light skin tone
   - trigger: ",excited"
@@ -479,18 +557,30 @@ matches:
 # ---------- man in lotus position: medium-light skin tone
   - trigger: ",lotus"
     replace: "🧘🏼‍♂️"
+
+
+
 # People & Body: person-symbol
 # ---------- people hugging
   - trigger: ",hug"
     replace: "🫂"
+
+
+
 # Animals & Nature: plant-other
 # ---------- mushroom
   - trigger: ",mushroom"
     replace: "🍄"
+
+
+
 # Food & Drink: food-vegetable
 # ---------- eggplant
   - trigger: ",eggplant"
     replace: "🍆"
+
+
+
 # Food & Drink: food-prepared
 # ---------- hamburger
   - trigger: ",hamburger"
@@ -498,6 +588,9 @@ matches:
 # ---------- popcorn
   - trigger: ",popcorn"
     replace: "🍿"
+
+
+
 # Food & Drink: drink
 # ---------- hot beverage
   - trigger: ",coffee"
@@ -514,18 +607,30 @@ matches:
 # ---------- clinking glasses
   - trigger: ",clink"
     replace: "🥂"
+
+
+
 # Travel & Places: place-map
 # ---------- globe showing Americas
   - trigger: ",world"
     replace: "🌎"
+
+
+
 # Travel & Places: place-geographic
 # ---------- volcano
   - trigger: ",volcano"
     replace: "🌋"
+
+
+
 # Travel & Places: place-building
 # ---------- house
   - trigger: ",home"
     replace: "🏠"
+
+
+
 # Travel & Places: transport-ground
 # ---------- police car
   - trigger: ",cops"
@@ -533,14 +638,23 @@ matches:
 # ---------- oncoming police car
   - trigger: ",police"
     replace: "🚔"
+
+
+
 # Travel & Places: transport-air
 # ---------- rocket
   - trigger: ",rocket"
     replace: "🚀"
+
+
+
 # Travel & Places: time
 # ---------- hourglass done
   - trigger: ",sand"
     replace: "⌛"
+
+
+
 # Travel & Places: sky & weather
 # ---------- crescent moon
   - trigger: ",moon"
@@ -566,6 +680,9 @@ matches:
 # ---------- fire
   - trigger: ",fire"
     replace: "🔥"
+
+
+
 # Activities: event
 # ---------- sparkles
   - trigger: ",sparkles"
@@ -576,6 +693,9 @@ matches:
 # ---------- wrapped gift
   - trigger: ",gift"
     replace: "🎁"
+
+
+
 # Activities: award-medal
 # ---------- trophy
   - trigger: ",trophy"
@@ -589,10 +709,16 @@ matches:
 # ---------- 3rd place medal
   - trigger: ",third"
     replace: "🥉"
+
+
+
 # Activities: sport
 # ---------- boxing glove
   - trigger: ",glove"
     replace: "🥊"
+
+
+
 # Activities: game
 # ---------- bullseye
   - trigger: ",target"
@@ -603,38 +729,65 @@ matches:
 # ---------- diamond suit
   - trigger: ",diamond"
     replace: "♦️"
+
+
+
 # Activities: arts & crafts
 # ---------- performing arts
   - trigger: ",theater"
     replace: "🎭"
+
+
+
 # Objects: clothing
 # ---------- crown
   - trigger: ",crown"
     replace: "👑"
+
+
+
 # Objects: loud
 # ---------- loudspeaker
   - trigger: ",loud"
     replace: "📢"
+
+
+
 # Objects: music
 # ---------- microphone
   - trigger: ",microphone"
     replace: "🎤"
+
+
+
 # Objects: musical-instruments
 # ---------- violin
   - trigger: ",violin"
     replace: "🎻"
+
+
+
 # Objects: phone
 # ---------- telephone receiver
   - trigger: ",phone"
     replace: "📞"
+
+
+
 # Objects: light & video
 # ---------- light bulb
   - trigger: ",bulb"
     replace: "💡"
+
+
+
 # Objects: money
 # ---------- money bag
   - trigger: ",money-bag"
     replace: "💰"
+
+
+
 # Objects: office
 # ---------- pushpin
   - trigger: ",pin"
@@ -645,10 +798,16 @@ matches:
 # ---------- wastebasket
   - trigger: ",trash"
     replace: "🗑️"
+
+
+
 # Objects: lock
 # ---------- key
   - trigger: ",key"
     replace: "🔑"
+
+
+
 # Objects: tool
 # ---------- bomb
   - trigger: ",bomb"
@@ -659,6 +818,9 @@ matches:
 # ---------- magnet
   - trigger: ",magnet"
     replace: "🧲"
+
+
+
 # Objects: medical
 # ---------- syringe
   - trigger: ",syringe"
@@ -666,22 +828,37 @@ matches:
 # ---------- pill
   - trigger: ",pill"
     replace: "💊"
+
+
+
 # Objects: household
 # ---------- shower
   - trigger: ",shower"
     replace: "🚿"
+
+
+
 # Symbols: warning
 # ---------- warning
   - trigger: ",warning"
     replace: "⚠️"
+
+
+
 # Symbols: zodiac
 # ---------- Gemini
   - trigger: ",gemini"
     replace: "♊"
+
+
+
 # Symbols: punctuation
 # ---------- white question mark
   - trigger: ",question"
     replace: "❔"
+
+
+
 # Symbols: other-symbols
 # ---------- check mark button
   - trigger: ",checked"
@@ -689,6 +866,9 @@ matches:
 # ---------- cross mark
   - trigger: ",cross"
     replace: "❌"
+
+
+
 # Flags: flag
 # ---------- triangular flag
   - trigger: ",red-flag"
@@ -699,6 +879,9 @@ matches:
 # ---------- pirate flag
   - trigger: ",pirate-flag"
     replace: "🏴‍☠️"
+
+
+
 # Flags: country-flag
 # ---------- flag: Mexico
   - trigger: ",mexico"
