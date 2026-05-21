@@ -9,4 +9,5 @@ source ~/is-ma/dotfiles/bash/bash_configs.sh
 # shortcuts
 source ~/is-ma/dotfiles/bash/custom_bash.sh
 source ~/is-ma/dotfiles/bash/git_shortcuts.sh
+source ~/is-ma/dotfiles/bash/admin_services.sh
 

@@ -70,8 +70,6 @@ alias myps='ps -u $USER -o pid,pcpu,pmem,comm'  # Procesos del usuario actual
 # [n]
 
 # [o]
-alias o="opencode run --agent=DeepJunior"
-alias oo="opencode"
 
 # [p]
 alias pingt='ping -D'  # Ping con timestamp
