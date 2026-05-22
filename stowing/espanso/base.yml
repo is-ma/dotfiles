@@ -9,14 +9,20 @@ matches:
   - trigger: ",box"
     replace: "- [ ]"
 ############
+  - trigger: ",go-bujo"
+    replace: "cd ~/is-ma/bujo; l"
+############
   - trigger: ",dong"
     replace: "🎐🌸💬 ¡¡DOOONGGGG!! 💬🌸🎐"
+############
+  - trigger: ",dinkus"
+    replace: "♦️♦️♦️"
 ############
   - trigger: ",dot"
     replace: "⋅"
 ############
-  - trigger: ",home"
-    replace: "cd ~/is-ma/home"
+  - trigger: ",go-home"
+    replace: "cd ~/is-ma/home; l"
 ############
   - trigger: ",iplocal"
     replace: "{{ip}}"
@@ -34,7 +40,7 @@ matches:
         params:
           cmd: "hostname -I | awk '{print $2}'"
 ############
-  - trigger: ",isma"
+  - trigger: ",go-isma; l"
     replace: "cd ~/is-ma/"
 ############
   - trigger: ",line"

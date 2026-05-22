@@ -1,3 +1,4 @@
+# Source: https://www.unicode.org/Public/17.0.0/emoji/emoji-test.txt
 matches:
 # Smileys & Emotion: face-smiling
 # ---------- grinning face
@@ -94,7 +95,7 @@ matches:
   - trigger: ",oops"
     replace: "🤭"
 # ---------- face with open eyes and hand over mouth
-  - trigger: ",hand"
+  - trigger: ",cover"
     replace: "🫢"
 # ---------- face with peeking eye
   - trigger: ",hide"
@@ -241,7 +242,7 @@ matches:
 
 # Smileys & Emotion: face-concerned
 # ---------- confused face
-  - trigger: ",hm"
+  - trigger: ",huh"
     replace: "😕"
 # ---------- worried face
   - trigger: ",worried"
@@ -317,7 +318,7 @@ matches:
   - trigger: ",anger"
     replace: "😤"
 # ---------- enraged face
-  - trigger: ",red"
+  - trigger: ",mad"
     replace: "😡"
 # ---------- angry face
   - trigger: ",upset"
@@ -437,7 +438,7 @@ matches:
   - trigger: ",luck"
     replace: "🤞🏼"
 # ---------- hand with index finger and thumb crossed: medium-light skin tone
-  - trigger: ",money"
+  - trigger: ",money-sign"
     replace: "🫰🏼"
 
 
@@ -509,7 +510,7 @@ matches:
 
 # People & Body: person-gesture
 # ---------- man raising hand: medium-light skin tone
-  - trigger: ",me"
+  - trigger: ",raise"
     replace: "🙋🏼‍♂️"
 
 
@@ -663,7 +664,7 @@ matches:
   - trigger: ",sun"
     replace: "☀️"
 # ---------- star
-  - trigger: ",star"
+  - trigger: ",golden-star"
     replace: "⭐"
 # ---------- cloud with lightning and rain
   - trigger: ",storm"
@@ -724,7 +725,7 @@ matches:
   - trigger: ",target"
     replace: "🎯"
 # ---------- crystal ball
-  - trigger: ",ball"
+  - trigger: ",fortune"
     replace: "🔮"
 # ---------- diamond suit
   - trigger: ",diamond"
