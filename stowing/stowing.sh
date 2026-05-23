@@ -9,6 +9,8 @@ stow -t ~/.config/espanso/match/ espanso/
 stow -t ~/.config/helix/ helix_conf/
 stow -t ~/.config/helix/runtime/themes/ helix_themes/
 
+# opencode
+stow -t ~/.config/opencode/ opencode/
 
 
 #################################################################
