@@ -4,7 +4,6 @@
   "provider": {
     "deepseek": {
       "options": {
-        "timeout": 120000,
         "chunkTimeout": 30000
       }
     }
