@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
   "agents": {
     "sisyphus": {
-      "model": "deepseek/deepseek-v4-pro",
+      "model": "deepseek/deepseek-v4-flash",
       "temperature": 0.1
     },
     "atlas": {
-      "model": "deepseek/deepseek-v4-pro",
+      "model": "deepseek/deepseek-v4-flash",
       "temperature": 0.2
     },
     "prometheus": {
@@ -14,7 +14,7 @@
       "temperature": 0.15
     },
     "metis": {
-      "model": "deepseek/deepseek-v4-pro",
+      "model": "deepseek/deepseek-v4-flash",
       "temperature": 0.5
     },
     "momus": {
@@ -26,11 +26,11 @@
       "temperature": 0.05
     },
     "oracle": {
-      "model": "deepseek/deepseek-v4-pro",
+      "model": "deepseek/deepseek-v4-flash",
       "temperature": 0.1
     },
     "hephaestus": {
-      "model": "deepseek/deepseek-v4-pro",
+      "model": "deepseek/deepseek-v4-flash",
       "temperature": 0.35
     },
     "explore": {
@@ -52,15 +52,15 @@
       "temperature": 0.5
     },
     "ultrabrain": {
-      "model": "deepseek/deepseek-v4-pro",
+      "model": "deepseek/deepseek-v4-flash",
       "temperature": 0.4
     },
     "deep": {
-      "model": "deepseek/deepseek-v4-pro",
+      "model": "deepseek/deepseek-v4-flash",
       "temperature": 0.5
     },
     "artistry": {
-      "model": "deepseek/deepseek-v4-pro",
+      "model": "deepseek/deepseek-v4-flash",
       "temperature": 0.65
     },
     "quick": {
@@ -72,7 +72,7 @@
       "temperature": 0.1
     },
     "unspecified-high": {
-      "model": "deepseek/deepseek-v4-pro",
+      "model": "deepseek/deepseek-v4-flash",
       "temperature": 0.45
     },
     "writing": {
