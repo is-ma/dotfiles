@@ -1,6 +1,14 @@
 {
   "plugin": ["oh-my-openagent@latest"],
   "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "deepseek": {
+      "options": {
+        "timeout": 120000,
+        "chunkTimeout": 30000
+      }
+    }
+  },
   "agent": {
     "DeepBro": {
       "model": "deepseek/deepseek-v4-flash",
