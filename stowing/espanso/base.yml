@@ -9,6 +9,9 @@ matches:
   - trigger: ",box"
     replace: "- [ ]"
 ############
+  - trigger: ",thebox"
+    replace: "- [ ] `$|$`"
+############
   - trigger: ",go-bujo"
     replace: "cd ~/is-ma/bujo; l"
 ############
