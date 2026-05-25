@@ -70,8 +70,9 @@ alias myps='ps -u $USER -o pid,pcpu,pmem,comm'  # Procesos del usuario actual
 # [n]
 
 # [o]
-alias o='opencode run --agent DeepJunior'
-alias oo='unset VISUAL; opencode'
+alias o='opencode run --agent DeepTerminal'
+alias od="unset VISUAL; bash ~/is-ma/home/opencode/switch2deepseek.sh >/dev/null 2>&1; opencode"
+alias og='unset VISUAL; bash ~/is-ma/home/opencode/switch2go.sh >/dev/null 2>&1; opencode'
 
 # [p]
 alias pingt='ping -D'  # Ping con timestamp
