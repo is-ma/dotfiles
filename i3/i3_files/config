@@ -1,8 +1,10 @@
 # Windows key
 set $mod Mod4
 
-# default font (bar)
+# useful defaults
 font pango:DejaVu Sans Mono 18
+default_border pixel 0
+default_floating_border pixel 1
 
 # notifications
 exec --no-startup-id dunst
